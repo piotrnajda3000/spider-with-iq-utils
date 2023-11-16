@@ -1,11 +1,13 @@
 # Spider dataset into Couchbase util tool
 
+Utility for creating SQL++ statements to use in Query editor to create a Spider database with it's data, and to generate questions to use in iQ for that database.  
+
+**Usage**:
+
 First, run `npm i`.
 
 You might need to make the script executable with `chmod+ x db.js` or
 something else on Windows.
-
-**Usage**:
 
 - `node ./db.js <<spider_db>> <<destination_db>> <<destination_scope>>`
   - If <<destination_db>> is not provided, it's equal to "Default",
