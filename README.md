@@ -5,7 +5,7 @@ First, run `npm i`.
 You might need to make the script executable with `chmod+ x db.js` or
 something else on Windows.
 
-Usage:
+**Usage**:
 
 - `node ./db.js <<spider_db>> <<destination_db>> <<destination_scope>>`
   - If <<destination_db>> is not provided, it's equal to "Default",
@@ -17,7 +17,7 @@ E.g.:
 - `.db.js concert_singer MyDatabase` -> Creates `CREATE` and `UPSERT` statements for `MyDatabase`.`concert_singer`,
 - `./db.js concert_singer` -> Creates `CREATE` and `UPSERT` statements for `Default`.`concert_singer`.
 
-Output:
+**Output**:
 
 - Use the .csv files inside `output/<<spider_db>>/csv` to import data with
   Mongo Compass,
