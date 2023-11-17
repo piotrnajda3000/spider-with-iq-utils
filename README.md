@@ -1,5 +1,9 @@
 # Spider dataset into Couchbase util tool
 
+Demo:
+
+https://github.com/piotrnajda3000/spider-with-iq-utils/assets/58721991/3183dfd6-afbf-4fb8-8d3a-4984ab30f8aa
+
 Utility for creating SQL++ statements to use in Query editor to create a Spider database with it's data, and to generate questions to use in iQ for that database.  
 
 **Usage**:
